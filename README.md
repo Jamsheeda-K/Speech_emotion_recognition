@@ -1,2 +1,5 @@
-# Speech_emotion_recognition
-A Convolutional Neural Network which takes in audio file as input and predicts the emotion in the audio
+# Speech emotion recognition
+There is a drastic increase in the use of voice controlled devices like Amazon Alexa, Google Assitant and Aplle Siri these days. If there is a way to additional information behind the human commands, these devices will be able to give a more personalised response to our requests. The Speech emotion recognition is a step in this direction.
+Deep learning techniques are used to extract the emotion from avoice clip. The Ravdess dataset from Kaaggle is used for training the model. The model classifies the emotion in the audio into one of the three categories: Happy, Calm and Angry.
+The following plot shows the accuracy comparison between different models on test and train data.
+![](./plots/model_comparison.png)
